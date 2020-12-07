@@ -1,0 +1,203 @@
+name: single_screen_ui
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    
+    - assets/bell/0.75x/bell.png
+    - assets/bell/bell.png
+    - assets/bell/1.5x/bell.png
+    - assets/bell/2.0x/bell.png
+    - assets/bell/3.0x/bell.png
+    - assets/bell/4.0x/bell.png
+
+    - assets/aeroplane/0.75x/
+    - assets/aeroplane/aeroplane.png
+    - assets/aeroplane/1.5x/
+    - assets/aeroplane/2.0x/
+    - assets/aeroplane/3.0x/
+    - assets/aeroplane/4.0x/
+
+    - assets/bank_transfer/0.75x/
+    - assets/bank_transfer/bank_transfer.png
+    - assets/bank_transfer/1.5x/
+    - assets/bank_transfer/2.0x/
+    - assets/bank_transfer/3.0x/
+    - assets/bank_transfer/4.0x/
+
+    - assets/bulb/0.75x/
+    - assets/bulb/bulb.png
+    - assets/bulb/1.5x/
+    - assets/bulb/2.0x/
+    - assets/bulb/3.0x/
+    - assets/bulb/4.0x/
+
+    - assets/compass/0.75x/
+    - assets/compass.png
+    - assets/compass/1.5x/
+    - assets/compass/2.0x/
+    - assets/compass/3.0x/
+    - assets/compass/4.0x/
+
+    - assets/girl_trolly/0.75x/
+    - assets/trolly_girl.png
+    - assets/girl_trolly/1.5x/
+    - assets/girl_trolly/2.0x/
+    - assets/girl_trolly/3.0x/
+    - assets/girl_trolly/4.0x/
+
+    - assets/india/0.75x/
+    - assets/india.png
+    - assets/india/1.5x/
+    - assets/india/2.0x/
+    - assets/india/3.0x/
+    - assets/india/4.0x/
+
+    - assets/mobile_left/0.75x/
+    - assets/mobile_left.png
+    - assets/mobile_left/1.5x/
+    - assets/mobile_left/2.0x/
+    - assets/mobile_left/3.0x/
+    - assets/mobile_left/4.0x/
+
+    - assets/mobile_middle/0.75x/
+    - assets/mobile_middle.png
+    - assets/mobile_middle/1.5x/
+    - assets/mobile_middle/2.0x/
+    - assets/mobile_middle/3.0x/
+    - assets/mobile_middle/4.0x/
+
+    - assets/mobile_right/0.75x/
+    - assets/mobile_right.png
+    - assets/mobile_right/1.5x/
+    - assets/mobile_right/2.0x/
+    - assets/mobile_right/3.0x/
+    - assets/mobile_right/4.0x/
+
+    - assets/opposite_arrow/0.75x/
+    - assets/opposite_arrow.png
+    - assets/opposite_arrow/1.5x/
+    - assets/opposite_arrow/2.0x/
+    - assets/opposite_arrow/3.0x/
+    - assets/opposite_arrow/4.0x/
+
+    - assets/payouts/0.75x/
+    - assets/payouts.png
+    - assets/payouts/1.5x/
+    - assets/payouts/2.0x/
+    - assets/payouts/3.0x/
+    - assets/payouts/4.0x/
+
+    - assets/three_dots/0.75x/
+    - assets/three_dots.png
+    - assets/three_dots/1.5x/
+    - assets/three_dots/2.0x/
+    - assets/three_dots/3.0x/
+    - assets/three_dots/4.0x/
+
+    - assets/tips/0.75x/
+    - assets/tips.png
+    - assets/tips/1.5x/
+    - assets/tips/2.0x/
+    - assets/tips/3.0x/
+    - assets/tips/4.0x/
+
+    - assets/uae/0.75x/
+    - assets/uae.png
+    - assets/uae/1.5x/
+    - assets/uae/2.0x/
+    - assets/uae/3.0x/
+    - assets/uae/4.0x/
+
+    - assets/wallet/0.75x/
+    - assets/wallet.png
+    - assets/wallet/1.5x/
+    - assets/wallet/2.0x/
+    - assets/wallet/3.0x/
+    - assets/wallet/4.0x/
+
+
+    - assets/show_more/0.75x/
+    - assets/show_more/show_more.png
+    - assets/show_more/1.5x/
+    - assets/show_more/2.0x/
+    - assets/show_more/3.0x/
+    - assets/show_more/4.0x/
+
+
+    # - assets//0.75x/
+    # - assets/
+    # - assets//1.5x/
+    # - assets//2.0x/
+    # - assets//3.0x/
+    # - assets//4.0x/
+    
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
