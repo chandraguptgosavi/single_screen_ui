@@ -75,9 +75,7 @@ class HomePage extends StatelessWidget {
                 ),
               ],
             ),
-            Container(
-              height: MediaQuery.of(context).size.height * 0.33,
-            ),
+            
           ],
         ),
       ),
